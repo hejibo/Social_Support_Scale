@@ -13,9 +13,9 @@ namespace Social_Support_Scale
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "关于我们";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("http://www.usee.tech")));
         }
 
         /// <summary>
